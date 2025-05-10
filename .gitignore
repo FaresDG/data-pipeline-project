@@ -1,0 +1,26 @@
+# Fichiers d’environnement
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Airflow
+logs/
+airflow.db
+*.log
+
+# dbt
+target/
+dbt_packages/
+
+# Docker
+docker-compose.override.yml
+*.pid
+/tmp
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
